@@ -545,7 +545,7 @@ function createSphereData() {
 }
 
 function initCheckBox() {
-  const toggle = document.querySelector("#toggleFilter");
+  const toggle = document.querySelector("#lowFilter");
 
   toggle.onchange = e => {
     if (e.target.checked) {
